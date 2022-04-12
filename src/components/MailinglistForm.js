@@ -5,7 +5,7 @@ import { TextField, Button } from "@material-ui/core";
 import withSimpleErrorBoundary from "../util/withSimpleErrorBoundary";
 
 const Container = styled.div`
-  padding: 2.5rem;
+  padding: 3rem;
 `;
 
 const FieldContainer = styled.div`
