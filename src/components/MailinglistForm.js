@@ -11,7 +11,7 @@ const Container = styled.div`
 const FieldContainer = styled.div`
   width: 100%;
   display: flex;
-  height: 2.5rem;
+  height: 3rem;
 
   button {
     background-color: #22a7f0;
