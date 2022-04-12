@@ -48,9 +48,9 @@ jobs:
         id: heroku
         uses: jctaveras/heroku-deploy@v1.0.0
         with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: ${{secrets.HEROKU_APPLICATION_NAME}}
-          heroku_email: ${{secrets.HEROKU_EMAIL_ADDRESS}}
-          dockerfile_path: '.'
-          process_type: 'web'
+          api_key: ${{secrets.HEROKU_API_KEY}}
+          app_name: ${{secrets.HEROKU_APPLICATION_NAME}}
+          email: ${{secrets.HEROKU_EMAIL_ADDRESS}}
+          dockerfile: '.'
+
 
